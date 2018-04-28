@@ -1,0 +1,29 @@
+// Old post colours, by Mors
+.postblock.postblock-own .postcontent{
+    background: linear-gradient(to right, #eefebf, #fff 512px);
+}
+.postblock .postcontent{
+    background: linear-gradient(to right, #e6ffff, #fff 512px);
+}
+
+// Old quote style, by kmlkmljkl
+.ql-container.ql-snow .ql-editor postquote {
+    border: 1px solid #888888;
+    background-color: #bbddff;
+}
+.ql-container.ql-snow .ql-editor postquote .head {
+    color:#0055c1;
+    background-color: #aaccee;
+    font-weight:bold;
+}
+.ql-container.ql-snow .ql-editor postquote .head a {color:#0055c1;}
+
+/* Why is Garry using non-standard word-break functions? this destroys it on anything but Chrome */
+body {
+    word-break: normal;
+}
+
+/* Splits up the usernames on rating lists */
+.votes .votelist .voteinfo .votedetail span {
+    margin: 0px 0px 5px 0px;
+}
