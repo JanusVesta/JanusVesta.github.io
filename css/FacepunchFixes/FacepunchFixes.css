@@ -20,9 +20,9 @@
 
 /* Code and comment below by kiwi on Facepunch*/
 /* Why is Garry using non-standard word-break functions? this destroys it on anything but Chrome */
-body {
+/*body {
     word-break: normal;
-}
+}*/
 
 /* Splits up the usernames on rating lists */
 .votes .votelist .voteinfo .votedetail span {
@@ -39,3 +39,19 @@ body {
     background: linear-gradient(to right, #e6ffff, #fff 512px);
 }
 
+
+/* Funny Gamer's attempt at the word wrap fix */
+.ql-container.ql-snow .ql-editor {
+  word-break: normal;
+}
+body.page-forum .threadviewsection .postblock .postmain {
+  min-width: 100px;
+}
+
+.title, .subtitle {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+body.page-forum .forumhead ul .content {
+  min-width: 100px;
+}
