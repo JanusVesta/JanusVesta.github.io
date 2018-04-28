@@ -27,3 +27,12 @@ body {
 .votes .votelist .voteinfo .votedetail span {
     margin: 0px 0px 5px 0px;
 }
+
+.postrender .postinner > .postuser { max-width: 256px; flex-grow: 1; flex-basis: 256px; }
+.ql-container.ql-snow .ql-editor p {color: #0a0a0a; font-size: 12pt;}
+.postblock.postblock-own .postcontent{
+    background: linear-gradient(to right, #eefebf, #fff 512px);
+}
+.postblock .postcontent{
+    background: linear-gradient(to right, #e6ffff, #fff 512px);
+}
