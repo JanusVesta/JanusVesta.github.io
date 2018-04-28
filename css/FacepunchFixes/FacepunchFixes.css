@@ -21,7 +21,7 @@
 /* Code and comment below by kiwi on Facepunch*/
 /* Why is Garry using non-standard word-break functions? this destroys it on anything but Chrome */
 body {
-    word-break: normal !important;
+    word-break: normal;
 }
 
 /* Splits up the usernames on rating lists */
